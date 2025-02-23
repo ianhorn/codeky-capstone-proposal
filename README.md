@@ -4,7 +4,9 @@
 
 Over the past few years, Kentucky has been subjected to extreme weather events.  The tornados in western Kentucky, the floods in southeast Kentucky, and as of this proposal, the floods all over Kentucky. 
 
- <p><img src="images/flood2025.jpg" style="display: block; margin: auto;align: center;"></p>
+<p align="center" width="100%">
+    <img src="images/flood2025.jpg"></img>
+</p>
 
 While Kentucky has a plethora of Geographic Information System (GIS) data, none of that data includes near-real-time (NRT) remote sensing data (i.e., imagery).  *(Note: I'm excluding vector-based GIS data in my definition of NRT data).*  Yes, after a disaster some private companies do fly an area to acquire imagery, but this data is almost always behind a paywall, and if it is released publicly, it will be months, if not years, afterwards.  Furthermore, this data is usually not standardized (georeferencing, cloud cover, etc).  
 
