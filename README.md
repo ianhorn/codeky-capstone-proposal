@@ -16,7 +16,9 @@ For this project, I plan to acquire the most recent Sentinel-1 satellite data to
 
 <p><img src="images/sat-icon.png" style = {"align": "center";}></img></p><br>
 
-Why Sentinel-1?  Because it uses Synthetic Aperture Radar (SAR) technology.  Light passed to the earth from the satellite will create backscatter over flat water surfaces.  SAR can also pass through clouds, unlike visible spectrum imagery.  Hence making it possible to acquire a base image and a crisis image for comparison. 
+Why Sentinel-1?  
+
+Because it uses Synthetic Aperture Radar (SAR) technology.  Light passed to the earth from the satellite will create backscatter over flat water surfaces.  SAR can also pass through clouds, unlike visible spectrum imagery.  Hence making it possible to acquire a base image and a crisis image for comparison. 
 
 ## Data Acquisition
 
@@ -32,7 +34,7 @@ In order to select the appropriate image for download, I will need to analyze US
 
 #### Finding the most recent image acquisition.
 
-This API call could result in a COG, but more likely an unprocessed [level-1](https://sentiwiki.copernicus.eu/web/s1-processing) image.  This means I will need to perform several process on it just to create a comparable image (remove noise, georeference, etc)
+This API call could result in a COG, but more likely an unprocessed [level-1](https://sentiwiki.copernicus.eu/web/s1-processing) image.  This means I will need to perform several processes on it just to create a comparable image (remove noise, georeference, etc)
 
 #### Data Product
 
@@ -58,7 +60,7 @@ In addition, vector-based GIS products could be derived.  For example, once an i
 
  ## Things to consider
 
- Although I believe the project will only pull data SAR data files, they may be large in size ~8 gbs.  That's not insanely big, but I'm unsure how long some of the processing will take.  This could require chunking into smaller areas of interest, using multithreading/multiprocessing modules, or a combination of both.
+ Although I believe the project will only pull two SAR data files, they may be large in size ~8 gbs.  That's not insanely big, but I'm unsure how long some of the processing will take.  This could require chunking into smaller areas of interest, using multithreading/multiprocessing modules, or a combination of both.
 
  ## Backup plan
 
